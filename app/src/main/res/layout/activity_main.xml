@@ -7,7 +7,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculadora IMC" />
+        android:text="Cálculo de IMC" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,13 +20,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="152dp"
-            android:text="PESO:" />
+            android:text="PESO (KG):" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ALTURA:" />
+            android:text="ALTURA (M):" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,10 +57,10 @@
 
         <Button
             android:id="@+id/botaoCalcular"
-            android:layout_width="wrap_content"
+            android:layout_width="138dp"
             android:layout_height="wrap_content"
             android:width="100dp"
-            android:text="CALCULAR" />
+            android:text="MOSTRAR IMC" />
     </LinearLayout>
 
     <TextView
