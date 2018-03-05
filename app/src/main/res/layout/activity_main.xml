@@ -31,19 +31,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
+
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/pesoText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="8" />
+            android:ems="8"
+            android:inputType="numberDecimal" />
+
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/alturaText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="8"
-            android:inputType="number"
-            />
+            android:inputType="numberDecimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -54,11 +55,18 @@
         android:layout_marginLeft="130dp">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/botaoCalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="100dp"
             android:text="CALCULAR" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/saidaTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
 
 </LinearLayout>
